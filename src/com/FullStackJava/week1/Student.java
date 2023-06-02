@@ -1,3 +1,5 @@
+package com.FullStackJava.week1;
+
 public class Student {
     String name="Akshay Kumar";
     void getName(){

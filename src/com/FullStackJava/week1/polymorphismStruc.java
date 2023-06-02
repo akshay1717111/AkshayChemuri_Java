@@ -1,3 +1,5 @@
+package com.FullStackJava.week1;
+
 class Cricket{
     public void playerPlay(){
         System.out.println("Players will play cricket");

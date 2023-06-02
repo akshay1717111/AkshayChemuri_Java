@@ -1,3 +1,5 @@
+package com.FullStackJava.week1;
+
 public class Owner extends Department{
 public int getDepartmenSize(){
         int c=143;

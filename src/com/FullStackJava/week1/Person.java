@@ -1,3 +1,5 @@
+package com.FullStackJava.week1;
+
 public class Person {
     long age;
     float weight;

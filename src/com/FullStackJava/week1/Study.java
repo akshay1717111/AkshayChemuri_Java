@@ -1,3 +1,5 @@
+package com.FullStackJava.week1;
+
 class Exam {
     String studentName;
     String universityName;
