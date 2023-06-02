@@ -6,12 +6,12 @@ double price;
     }
 
     public double getPrice(double quantity) {
-        if(quantity > 100) {
-            price = price * 1.05;
+        if(quantity >= 3) {
+            price = price * 2* quantity;
             return price;
         }
         else{
-            return price;
+            return price * quantity;
         }
 
     }
@@ -24,7 +24,7 @@ double price;
         Product p=new Product();
         System.out.println(p.setPrice(150));
         System.out.println(p.getPrice());
-        System.out.println(p.getPrice(200));
+        System.out.println(p.getPrice(2));
 
     }
 
