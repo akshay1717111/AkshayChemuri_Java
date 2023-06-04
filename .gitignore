@@ -4,6 +4,8 @@
 /out/
 /JavaProjects.iml
 /README.md
+.class
+*.class
 
 
 out/
