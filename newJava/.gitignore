@@ -34,3 +34,6 @@ bin/
 .class
 *.class
 newJava.iml
+.idea
+/.idea/
+/.idea/
