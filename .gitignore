@@ -1,0 +1,7 @@
+/Java.iml
+/out/
+/.idea/
+.DS_Store
+/src/com/fullstack/javacore/week1/Main.class
+/src/*.class
+/src/com/fullstack/javacore/week1/*.class
