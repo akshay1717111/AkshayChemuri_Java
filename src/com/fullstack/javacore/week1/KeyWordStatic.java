@@ -12,7 +12,7 @@ public class KeyWordStatic {
       abc();
     }
     public static void main(String[] args){
-        KeyWordStatic k=new KeyWordStatic();
-        System.out.println(k.a);
+        //KeyWordStatic k=new KeyWordStatic();
+        System.out.println(a);
     }
 }

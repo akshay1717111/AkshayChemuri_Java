@@ -1,6 +1,7 @@
 package com.fullstack.javacore.week1;
 
 public class Deploy implements NewApp,NewApp1 {
+    @Override
     public void showDetails(){
         System.out.println("provide details");
     }
