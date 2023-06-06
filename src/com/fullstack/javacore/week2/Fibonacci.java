@@ -1,7 +1,7 @@
 package com.fullstack.javacore.week2;
 
 public class Fibonacci {
-    public void termForFibonacci(int val){
+    public void termForFibonacci(){
         int n1=0,n2=1;
         System.out.print(n1 + "  ");
         System.out.print(n2 + "  ");

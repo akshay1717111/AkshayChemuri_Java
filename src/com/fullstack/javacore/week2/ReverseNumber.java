@@ -1,16 +1,15 @@
 package com.fullstack.javacore.week2;
 
 public class ReverseNumber {
-    public void reverseMethod(int number) {
-        int lastNumber;
-        int reverse = 0;
-        while (number > 0) {
-            lastNumber = number % 10;
-            reverse = 10 * reverse + lastNumber;
-            number = number / 10;
+    public void reverseMethod(int value){
+        int reverseValue=0;
+        int lastDigit;
+        while(value > 0){
+            lastDigit = value % 10;
+            reverseValue = 10* reverseValue + lastDigit;
+            value/=10;
         }
-        System.out.println(reverse);
-
+        System.out.println(reverseValue);
     }
 }
 

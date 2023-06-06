@@ -5,11 +5,11 @@ public class Main {
         ReverseNumber r=new ReverseNumber();
         PersonAge p=new PersonAge();
         Fibonacci f=new Fibonacci();
-        p.ageDefination(13);
-        p.ageDefination(25);
-        r.reverseMethod(100);
-        f.termForFibonacci(10);
         FizzBuzz f1=new FizzBuzz();
+       p.ageDefination(13);
+       p.ageDefination(25);
+        r.reverseMethod(12345);
+        f.termForFibonacci();
         f1.implementFizzBuzz();
     }
 }
