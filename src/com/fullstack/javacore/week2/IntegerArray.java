@@ -22,7 +22,7 @@ static void maxValue() {
 
             }
             else{
-                System.out.println("not in loop");
+                System.out.println("not defined or undefined");
             }
 
 
