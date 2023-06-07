@@ -27,8 +27,8 @@ static void maxValue() {
 
 
     }
-    System.out.println(small);
-    System.out.println(high);
+    System.out.println("Lowest: "+small);
+    System.out.println("Highest: "+high);
 
 
 }
