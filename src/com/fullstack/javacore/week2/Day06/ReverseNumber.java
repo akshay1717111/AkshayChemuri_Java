@@ -1,4 +1,4 @@
-package com.fullstack.javacore.week2;
+package com.fullstack.javacore.week2.Day06;
 
 public class ReverseNumber {
     public void reverseMethod(int value){
@@ -12,6 +12,3 @@ public class ReverseNumber {
         System.out.println(reverseValue);
     }
 }
-
-
-

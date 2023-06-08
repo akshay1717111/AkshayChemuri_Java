@@ -1,6 +1,4 @@
-package com.fullstack.javacore.week2;
-
-import java.util.Arrays;
+package com.fullstack.javacore.week2.Day07;
 
 public class RotateArray {
 

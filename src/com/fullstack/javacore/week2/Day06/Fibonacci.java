@@ -1,4 +1,4 @@
-package com.fullstack.javacore.week2;
+package com.fullstack.javacore.week2.Day06;
 
 public class Fibonacci {
     public void termForFibonacci(){
