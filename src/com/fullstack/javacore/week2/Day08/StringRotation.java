@@ -9,9 +9,7 @@ public class StringRotation
         }
         else {
             str1 = str1.concat(str1);
-
-             if(str1.indexOf(str2) != -1) {
-                 System.out.println(str1.indexOf(str2));
+             if(str1.contains(str2)) {
                  System.out.println("true");
              }
             else{
