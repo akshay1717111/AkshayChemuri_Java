@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 public class StringArrayExample {
     public static void main(String[] args) {
-        String[] strings = {"apple", "banana", "cherry", "date"};
+        String[] strings = {"Kumar", "Jason", "Henry", "Matt"};
 
         String[] capitalizedStrings = Arrays.stream(strings)
                 .map(s -> s.substring(0, 1).toUpperCase() + s.substring(1))

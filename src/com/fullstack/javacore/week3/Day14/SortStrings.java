@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 public class SortStrings {
     public static void main(String[] args) {
-        String[] strings = {"apple", "banana", "cherry", "date", "fig", "grape"};
+        String[] strings = {"Kumar", "Jason", "Henry", "Matt"};
 
         Arrays.stream(strings)
                 .sorted(Comparator.comparingInt(String::length)

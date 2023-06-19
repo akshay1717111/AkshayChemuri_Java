@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 class Vowels {
     public static void main(String[] args) {
-        String[] strings = {"apple", "banana", "cherry", "date", "grape"};
+        String[] strings = {"Kumar", "Jason", "Henry", "Matt"};
 
         Arrays.stream(strings)
                 .filter(s -> s.matches(".*[aeiou].*"))
