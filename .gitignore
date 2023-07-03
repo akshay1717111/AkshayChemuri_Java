@@ -2,8 +2,9 @@
 /out/
 /.idea/
 .DS_Store
-/src/com/fullstack/javacore/week1/Main.class
+/src/com/fullstack/javacore/oopsConcepts/Main.class
 /src/*.class
 /src/com/fullstack/javacore/week1/*.class
 /src/com/fullstack/javacore/week2/*.class
+
 
