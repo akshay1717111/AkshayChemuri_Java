@@ -6,5 +6,4 @@
 /src/*.class
 /src/com/fullstack/javacore/week1/*.class
 /src/com/fullstack/javacore/week2/*.class
-
-
+/target/
