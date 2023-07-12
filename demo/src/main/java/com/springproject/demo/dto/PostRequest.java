@@ -1,4 +1,4 @@
-package com.springproject.demo;
+package com.springproject.demo.dto;
 
 import lombok.Data;
 

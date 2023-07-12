@@ -1,6 +1,9 @@
-package com.springproject.demo;
+package com.springproject.demo.controller;
 
 
+import com.springproject.demo.service.DataService;
+import com.springproject.demo.dto.PostRequest;
+import com.springproject.demo.dto.PutRequest;
 import org.springframework.beans.factory.annotation.Autowired;import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

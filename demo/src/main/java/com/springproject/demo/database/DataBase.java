@@ -1,6 +1,7 @@
-package com.springproject.demo;
+package com.springproject.demo.database;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
+import com.springproject.demo.dto.SubmissionRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -9,8 +10,8 @@ import java.util.List;
 import java.util.UUID;
 
 @Service
-public class DataBase implements IDataBase{
-    public HashMap<UUID,SubmissionRequest> db = new HashMap<>();
+public class DataBase implements IDataBase {
+    public HashMap<UUID, SubmissionRequest> db = new HashMap<>();
     @Override
     public SubmissionRequest store(SubmissionRequest sr) {
         db.put(sr.getId(),sr);
@@ -21,13 +22,17 @@ public class DataBase implements IDataBase{
         return db.get(id);
     }
     @Override
-    public SubmissionRequest update(SubmissionRequest sr) {
-        db.put(sr.getId(),sr);
-        return sr;
+    public boolean update(SubmissionRequest sr) {
+        if(db.containsKey(sr.getId()))
+        {
+            db.put(sr.getId(),sr);
+            return true;
+        }
+        return false;
     }
     @Override
-    public SubmissionRequest delete(UUID id) {
-        return db.remove(id);
+    public void delete(UUID id) {
+        db.remove(id);
     }
     @Override
     public List<SubmissionRequest> fetchAll() {
